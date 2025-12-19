@@ -29,7 +29,7 @@ public class Main {
     }
     public static void main(String[] args) {
         Student s1 = new Student("Ali", "S001", "CS");
-        Student s2 = new Student("Aruzhan", "S002", "IT");
+        Student s2 = new Student("Aru", "S002", "IT");
         Student s3 = new Student("Dana_White", "S003", "SE");
         Student s4 = new Student("Miras", "S004", "CS");
         Student s5 = new Student("Nur", "S005", "DS");
@@ -37,7 +37,7 @@ public class Main {
         s2.updateGPA(3.2); s2.addCredits(75);
         s3.updateGPA(3.9); s3.addCredits(110);
         s4.updateGPA(2.7); s4.addCredits(60);
-        s5.updateGPA(3.6); s5.addCredits(80);
+        s5.updateGPA(4.0); s5.addCredits(80);
         Student[] arr = { s1, s2, s3, s4, s5 };
         Course course = new Course("OOP", "Dr. Smith", 5);
         for (int i = 0; i < arr.length; i++) {
